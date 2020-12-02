@@ -15,18 +15,17 @@ const connect = function() {
     console.log("Successfully connected to game server.");
     conn.write('Name: SK');
     // conn.write("Move: up");
-
     // let timer = 0;
     // for (let i = 0; i < 20; i++) {
     //   setTimeout(() => {
     //     conn.write("Move: up")
     //   }, timer);
     //   timer += 100;
-    // }
+    // // }
 
-    setInterval(() => {
-      conn.write("Move: up");
-    }, 100);
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 100);
 
   })
 
